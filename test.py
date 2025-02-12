@@ -1,7 +1,8 @@
 import cv2
 
 # Öffne die Webcam (0 ist die Standard-Webcam)
-cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0, cv2.CAP_V4L2)
 
 # Überprüfe, ob die Webcam erfolgreich geöffnet wurde
 if not cap.isOpened():
