@@ -2,7 +2,7 @@ import cv2
 import time
 
 # Aktuelle Zeit im Format 'HH:MM:SS'
-current_time = time.strftime("%H:%M:%S")
+current_time = time.strftime("%H_%M_%S")
 
 save_dir = "./images/"
 pictureName = save_dir + current_time + "_bild.jpg"
