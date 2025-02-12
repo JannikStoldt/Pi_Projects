@@ -1,1 +1,5 @@
-# Pi_Projects
+usefull commands
+
+
+-----Linux-----
+
