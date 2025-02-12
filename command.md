@@ -9,6 +9,9 @@ pw: 5242
 ssh-keygen
 //in Terminal eingeben für SSH Key
 
+sudo shutdown now
+//fährt den pi herunter
+
 ## -----Linux-----
 
 ### 1. Systeminfos
