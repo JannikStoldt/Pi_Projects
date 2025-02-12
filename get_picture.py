@@ -1,15 +1,11 @@
 import cv2
-
 import time
 
 # Aktuelle Zeit im Format 'HH:MM:SS'
 current_time = time.strftime("%H:%M:%S")
-#print("Aktuelle Zeit:", current_time)
 
-pictureName = current_time + "_bild.jpg"
-
-
-
+save_dir = "./images/"
+pictureName = save_dir + current_time + "_bild.jpg"
 
 # Öffne die Webcam (0 ist die Standard-Webcam)
 # cap = cv2.VideoCapture(0)
@@ -29,7 +25,6 @@ if ret:
     # Speichere das Bild auf der Festplatte
     cv2.imwrite(pictureName, frame)
     print("Bild wurde gespeichert.")
-
 
 # Release die Webcam
 cap.release()
