@@ -13,16 +13,12 @@ ret, frame = cap.read()
 
 # Überprüfe, ob das Bild erfolgreich gelesen wurde
 if ret:
-    # Zeige das Bild in einem Fenster an
-    cv2.imshow("Webcam Bild", frame)
 
     # Speichere das Bild auf der Festplatte
     cv2.imwrite('webcam_bild.jpg', frame)
     print("Bild wurde gespeichert.")
 
 # Warte, bis eine Taste gedrückt wird, und schließe dann das Fenster
-cv2.waitKey(0)
-cv2.destroyAllWindows()
 
 # Release die Webcam
 cap.release()
