@@ -1,5 +1,13 @@
 # USEFULL COMMANDS
 
+## -----allgemein-----
+
+ssh jannik@raspberrypi5
+pw: 5242
+//für die Verbindung auf den Pi
+
+ssh-keygen
+//in Terminal eingeben für SSH Key
 
 ## -----Linux-----
 
@@ -11,8 +19,6 @@ htop
 
 df -h
 //zeigt Speicher an
-
-
 
 ### 2. apt (Paketmanager)
 
@@ -39,3 +45,5 @@ sudo apt show <name>
 
 sudo apt depends <name>
 //zeigt Abhängigkeiten
+
+### 3. 
