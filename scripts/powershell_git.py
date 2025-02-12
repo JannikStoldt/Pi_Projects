@@ -2,7 +2,7 @@ import subprocess
 
 # Liste von Git-Befehlen, die ausgeführt werden sollen
 commands = [
-    "git add ./",               
+    "git add ./.././",               
     "git commit -m'updates",
     "git push",
 ]
